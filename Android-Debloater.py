@@ -1,7 +1,5 @@
 import os
 import argparse
-import shutil
-import pathlib
 
 LOGFILE = os.getcwd() + "/" + "android-debloat-log.txt"
 TEMP = os.getcwd() + "/" + ".temp"
