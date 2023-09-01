@@ -9,7 +9,7 @@ python3 Android-Debloater.py -i degoogle.txt -p true -a true
 ```
 
 usage
-```shell
+```
 usage: Android-Debloater.py [-h] [-i INPUT] [-p PERMENANT] [-a ADD]
 
 options:
