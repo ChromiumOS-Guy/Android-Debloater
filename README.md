@@ -3,9 +3,22 @@ very simple script for automated debloating of android (meant for linux use only
 ## features:
 supports list like structure for debloating android and installing apks
 ## use:
-use
+use example
 ```shell
-python3 Android-Debloater.py -i degoogle.txt -p -a
+python3 Android-Debloater.py -i degoogle.txt -p true -a true
+```
+
+usage
+```shell
+usage: Android-Debloater.py [-h] [-i INPUT] [-p PERMENANT] [-a ADD]
+
+options:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        list of package names to be removed .txt format
+  -p PERMENANT, --permenant PERMENANT
+                        try to permenantly delete packages
+  -a ADD, --add ADD     enable adding packages from list links
 ```
 
 ## tip:
