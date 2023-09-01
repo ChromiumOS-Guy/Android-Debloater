@@ -36,7 +36,7 @@ def remove_package(package_name : str):
 			if err == 0:
 				packages_removed_user.append(package_name)
 	else:
-		err = os.system("adb uninstall --user 0 {package_name} >> {LOGFILE}".format(package_name=package_name ,LOGFILE=LOGFILE))
+		err = os.system("adb uninstall -k --user 0 {package_name} >> {LOGFILE}".format(package_name=package_name ,LOGFILE=LOGFILE))
 		if err == 0:
 			packages_removed_user.append(package_name)
 	if err != 0:
