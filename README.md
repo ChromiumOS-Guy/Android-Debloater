@@ -23,7 +23,7 @@ options:
   -a ADD, --add ADD     enable adding packages from list links
 ```
 
-## tip:
+## tips:
 if you want to delete a bunch of android packages say all google packages you can use this command
 ```shell
 adb shell pm list packages | grep google | cut -c 9-
