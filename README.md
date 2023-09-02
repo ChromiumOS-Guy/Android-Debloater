@@ -2,7 +2,7 @@
 [DOES NOT REQUIRE ROOT]
 
 very simple script for automated debloating of android (meant for linux use only)
-## features:
+
 supports list like structure for debloating android ,installing apks and executing adb shell commands
 ## use:
 use example
