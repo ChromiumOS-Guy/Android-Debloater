@@ -4,6 +4,8 @@
 very simple script for automated debloating of android (meant for linux use only)
 
 supports list like structure for debloating android ,installing apks and executing adb shell commands
+
+requires wget & adb
 ## use:
 use example
 ```shell
