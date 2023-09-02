@@ -27,7 +27,7 @@ options:
                         enable running shell commands from list
 ```
 ## run:
-run degoole list
+run degoogle list
 ```shell
 wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/degoogle.txt && python3 Android-Debloater.py -i degoogle.txt -p true -a true -s true && rm -rf Android-Debloater.py && rm -rf degoogle.txt
 ```
