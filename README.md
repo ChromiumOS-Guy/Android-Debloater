@@ -34,7 +34,7 @@ download: | download an apk from the internet | download:https://f-droid.org/F-D
 shell: | android shell command | shell:reboot
 question:n: | question to user, n is for number of lines after question to be affected if user answer is no said lines after question won't be used, question defualt is yes | question:1:reboot?
 installpkgs | install all downloaded packages to phone | installpkgs
-*##* | list comments | *##*comment about list
+*##* | list comments | ##comment about list
 
 
 ## tips:
