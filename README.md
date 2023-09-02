@@ -30,7 +30,7 @@ run degoole list
 wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/degoogle.txt && python3 Android-Debloater.py -i degoogle.txt -p true -a true -s true
 ```
 
-run degoogle and foss collection list
+run degoogle and foss collection (gapp replacment) list
 ```shell
 wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/degoogle.txt && python3 Android-Debloater.py -i degoogle_replace_with_foss.txt -p true -a true -s true
 ```
