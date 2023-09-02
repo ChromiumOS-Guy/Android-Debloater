@@ -40,5 +40,5 @@ installpkgs | install all downloaded packages to phone | installpkgs
 ## tips:
 if you want to delete a bunch of android packages say all google packages you can use this command
 ```shell
-adb shell pm list packages | grep google | cut -c 9-
+adb shell pm list packages | grep google
 ```
