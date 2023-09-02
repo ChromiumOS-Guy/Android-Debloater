@@ -32,7 +32,7 @@ package: | defines an android package | package:com.android.vending
 !package: | defines an android package and forces to remove it with user only mode | !package:com.android.vending
 download: | download an apk from the internet | download:https://f-droid.org/F-Droid.apk
 shell: | android shell command | shell:reboot
-question:n: | question to user n is for number of lines after question to be affected if user answer is no said lines after question won't be used, question defualt is yes | question:1:reboot?
+question:n: | question to user, n is for number of lines after question to be affected if user answer is no said lines after question won't be used, question defualt is yes | question:1:reboot?
 installpkgs | install all downloaded packages to phone | installpkgs
 *##* | list comments | *##*comment about list
 
