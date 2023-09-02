@@ -20,6 +20,8 @@ package:com.google.android.gsf
 package:com.google.android.gm
 package:com.google.android.tts
 package:com.google.android.googlequicksearchbox
+package:com.google.android.captiveportallogin
+package:com.google.android.onetimeinitializer
 package:com.google.android.youtube
 package:com.android.providers.downloads
 package:com.android.providers.downloads.ui
