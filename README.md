@@ -14,17 +14,15 @@ python3 Android-Debloater.py -i degoogle.txt -p -a -s
 
 usage
 ```
-usage: Android-Debloater.py [-h] [-i INPUT] [-p PERMENANT] [-a ADD] [-s SHELL]
+usage: Android-Debloater.py [-h] [-i INPUT] [-p] [-a] [-s]
 
 options:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
                         list of package names to be removed .txt format
-  -p PERMENANT, --permenant PERMENANT
-                        try to permenantly delete packages
-  -a ADD, --add ADD     enable adding packages from list links
-  -s SHELL, --shell SHELL
-                        enable running shell commands from list
+  -p, --permenant       try to permenantly delete packages
+  -a, --add             enable adding packages from list links
+  -s, --shell           enable running shell commands from list
 ```
 ## run:
 run degoogle list
