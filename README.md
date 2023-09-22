@@ -9,7 +9,7 @@ requires wget & adb
 ## use:
 use example
 ```shell
-python3 Android-Debloater.py -i degoogle.txt -p true -a true -s true
+python3 Android-Debloater.py -i degoogle.txt -p -a -s
 ```
 
 usage
@@ -29,12 +29,12 @@ options:
 ## run:
 run degoogle list
 ```shell
-wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/degoogle.txt && python3 Android-Debloater.py -i degoogle.txt -p true -a true -s true && rm -rf Android-Debloater.py && rm -rf degoogle.txt
+wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/degoogle.txt && python3 Android-Debloater.py -i degoogle.txt -p -a -s && rm -rf Android-Debloater.py && rm -rf degoogle.txt
 ```
 
 foss collection (gapp replacment) list
 ```shell
-wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/foss_collection.txt && python3 Android-Debloater.py -i foss_collection.txt -p true -a true -s true && rm -rf Android-Debloater.py && rm -rf foss_collection.txt
+wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/foss_collection.txt && python3 Android-Debloater.py -i foss_collection.txt -p -a -s && rm -rf Android-Debloater.py && rm -rf foss_collection.txt
 ```
 
 ## list syntax:
