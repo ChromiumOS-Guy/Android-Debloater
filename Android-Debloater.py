@@ -9,9 +9,9 @@ HERE = os.path.realpath(os.path.dirname(__file__))
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-i' , '--input' , type=argparse.FileType('r') , help='''list of package names to be removed .txt format''')
-parser.add_argument('-p' , '--permenant' , type=bool , help='''try to permenantly delete packages''')
-parser.add_argument('-a' , '--add' , type=bool , help='''enable adding packages from list links''')
-parser.add_argument('-s' , '--shell' , type=bool , help='''enable running shell commands from list''')
+parser.add_argument('-p' , '--permenant' , action='store_true', help='''try to permenantly delete packages''')
+parser.add_argument('-a' , '--add' , action='store_true', help='''enable adding packages from list links''')
+parser.add_argument('-s' , '--shell' , action='store_true', help='''enable running shell commands from list''')
 args = parser.parse_args()
 
 LISTPATH = os.path.realpath(args.input.name)
@@ -29,7 +29,11 @@ def remove_package(package_name : str , try_permenant : bool):
 	if try_permenant:
 		err = os.system("adb shell pm uninstall {package_name} >> {LOGFILE}".format(package_name=package_name ,LOGFILE=LOGFILE))
 		if err == 0:
-			packages_removed_permenant.append(package_name)
+			err = os.system("adb shell pm uninstall --user 0 {package_name} >> {LOGFILE}".format(package_name=package_name ,LOGFILE=LOGFILE)) # sometimes it works but doesn't delete so we want to check that
+			if err == 0:
+				packages_removed_user.append(package_name)
+			else:
+				packages_removed_permenant.append(package_name)
 		if err != 0:
 			os.system("echo ===FALLING BACK TO USER ONLY!!!=== >> {LOGFILE}".format(package_name=package_name ,LOGFILE=LOGFILE))
 			err = os.system("adb shell pm uninstall --user 0 {package_name} >> {LOGFILE}".format(package_name=package_name ,LOGFILE=LOGFILE))
