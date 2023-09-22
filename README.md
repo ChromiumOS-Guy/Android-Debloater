@@ -2,7 +2,7 @@
 [DOES NOT REQUIRE ROOT]
 
 very simple script for automated debloating of android (meant for linux use only)
-
+question
 supports list like structure for debloating android ,installing apks and executing adb shell commands
 
 requires wget & adb
@@ -48,7 +48,7 @@ installpkgs | install all downloaded packages to phone | installpkgs
 
 
 ## tips:
-if you want to delete a bunch of android packages say all google packages you can use this command
+if you want to search a bunch of android packages on you're phone say all google packages you can use this command to list all packages with google in there name (on linux)
 ```shell
 adb shell pm list packages | grep google
 ```
