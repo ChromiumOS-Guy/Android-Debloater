@@ -19,7 +19,7 @@ download:https://f-droid.org/repo/com.fsck.k9_37010.apk
 download:https://f-droid.org/repo/net.sourceforge.opencamera_87.apk
 download:https://f-droid.org/repo/com.github.libretube_40.apk
 download:https://f-droid.org/repo/org.mozilla.fennec_fdroid_1163020.apk
-download:https://f-droid.org/repo/com.bnyro.clock_9.apk
+download:https://f-droid.org/repo/com.simplemobiletools.clock_42.apk
 download:https://f-droid.org/F-Droid.apk
 download:https://f-droid.org/repo/com.simplemobiletools.calculator_60.apk
 download:https://f-droid.org/repo/com.simplemobiletools.gallery.pro_396.apk
