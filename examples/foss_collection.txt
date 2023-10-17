@@ -7,6 +7,9 @@ package:com.android.camera2
 package:com.android.contacts
 package:com.android.dialer
 package:com.android.calendar
+package:com.android.deskclock
+!package:com.android.dialer
+!package:com.android.calendar
 downloading FOSS app colection (9 apps)
 download:https://f-droid.org/repo/com.moez.QKSMS_2220.apk
 download:https://f-droid.org/repo/com.chooloo.www.koler_82.apk
