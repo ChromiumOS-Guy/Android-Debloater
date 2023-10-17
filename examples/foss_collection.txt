@@ -1,10 +1,12 @@
 
 ##installing a selection of FOSS apps instead of gapps
-question:4:remove defualt?
+question:6:remove defualt?
 package:com.android.messaging
 package:com.android.quicksearchbox
 package:com.android.camera2
 package:com.android.contacts
+package:com.android.dialer
+package:com.android.calendar
 downloading FOSS app colection (9 apps)
 download:https://f-droid.org/repo/com.moez.QKSMS_2220.apk
 download:https://f-droid.org/repo/com.chooloo.www.koler_82.apk
