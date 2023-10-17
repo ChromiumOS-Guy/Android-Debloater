@@ -8,9 +8,10 @@ package:com.android.contacts
 package:com.android.dialer
 package:com.android.calendar
 package:com.android.deskclock
+package:com.android.gallery3d
 !package:com.android.dialer
 !package:com.android.calendar
-downloading FOSS app colection (9 apps)
+downloading FOSS app colection (10 apps)
 download:https://f-droid.org/repo/com.moez.QKSMS_2220.apk
 download:https://f-droid.org/repo/com.chooloo.www.koler_82.apk
 download:https://f-droid.org/repo/ws.xsoh.etar_34.apk
@@ -21,6 +22,7 @@ download:https://f-droid.org/repo/org.mozilla.fennec_fdroid_1163020.apk
 download:https://f-droid.org/repo/com.bnyro.clock_9.apk
 download:https://f-droid.org/F-Droid.apk
 download:https://f-droid.org/repo/com.simplemobiletools.calculator_60.apk
+download:https://f-droid.org/repo/com.simplemobiletools.gallery.pro_396.apk
 installing FOSS app colection (9 apps)
 installpkgs
 question:2:Reboot Device?
