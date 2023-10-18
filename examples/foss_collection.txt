@@ -11,19 +11,32 @@ package:com.android.deskclock
 package:com.android.gallery3d
 !package:com.android.dialer
 !package:com.android.calendar
-downloading FOSS app colection (10 apps)
+question:24:download FOSS app colection (12 apps)
+downloding QKMS messages
 download:https://f-droid.org/repo/com.moez.QKSMS_2220.apk
-download:https://f-droid.org/repo/com.chooloo.www.koler_82.apk
+downloading etar calendar
 download:https://f-droid.org/repo/ws.xsoh.etar_34.apk
+downloading k9-mail email client
 download:https://f-droid.org/repo/com.fsck.k9_37010.apk
+downloading opencamera camera app
 download:https://f-droid.org/repo/net.sourceforge.opencamera_87.apk
+downloading libretube youtube client
 download:https://f-droid.org/repo/com.github.libretube_40.apk
-download:https://f-droid.org/repo/org.mozilla.fennec_fdroid_1163020.apk
-download:https://f-droid.org/repo/com.simplemobiletools.clock_42.apk
+downloading fennec browser (firefox based)
+download:https://f-droid.org/repo/org.mozilla.fennec_fdroid_1181020.apk
+downloading F-droid app store
 download:https://f-droid.org/F-Droid.apk
+downloading calculator
 download:https://f-droid.org/repo/com.simplemobiletools.calculator_60.apk
+downloading gallery
 download:https://f-droid.org/repo/com.simplemobiletools.gallery.pro_396.apk
-installing FOSS app colection (10 apps)
+downloading dialer app
+download:https://f-droid.org/repo/com.simplemobiletools.dialer_57.apk
+downloading contacts app
+download:https://f-droid.org/repo/com.simplemobiletools.contacts.pro_107.apk
+downloading clock app
+download:https://f-droid.org/repo/com.simplemobiletools.clock_42.apk
+question:1:install FOSS app colection (12 apps)
 installpkgs
 question:2:Reboot Device?
 shell:reboot
