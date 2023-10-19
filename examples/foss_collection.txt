@@ -14,7 +14,7 @@ package:com.android.documentsui
 !package:com.android.dialer
 !package:com.android.calendar
 
-question:26:download FOSS app colection (13 apps)
+question:28:download and install FOSS app colection (13 apps)
 downloding QKMS messages
 download:https://f-droid.org/repo/com.moez.QKSMS_2220.apk
 downloading etar calendar
@@ -41,8 +41,7 @@ downloading clock app
 download:https://f-droid.org/repo/com.simplemobiletools.clock_42.apk
 downloading file manager
 download:https://f-droid.org/repo/me.zhanghai.android.files_34.apk
-
-question:1:install FOSS app colection (13 apps)
+installing (FOSS) apps
 installpkgs
 
 question:2:Reboot Device?
