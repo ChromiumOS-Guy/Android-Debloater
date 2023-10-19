@@ -9,9 +9,10 @@ package:com.android.dialer
 package:com.android.calendar
 package:com.android.deskclock
 package:com.android.gallery3d
+package:com.android.documentsui
 !package:com.android.dialer
 !package:com.android.calendar
-question:24:download FOSS app colection (12 apps)
+question:26:download FOSS app colection (13 apps)
 downloding QKMS messages
 download:https://f-droid.org/repo/com.moez.QKSMS_2220.apk
 downloading etar calendar
@@ -36,7 +37,9 @@ downloading contacts app
 download:https://f-droid.org/repo/com.simplemobiletools.contacts.pro_107.apk
 downloading clock app
 download:https://f-droid.org/repo/com.simplemobiletools.clock_42.apk
-question:1:install FOSS app colection (12 apps)
+downloading file manager
+download:https://f-droid.org/repo/me.zhanghai.android.files_34.apk
+question:1:install FOSS app colection (13 apps)
 installpkgs
 question:2:Reboot Device?
 shell:reboot
