@@ -24,7 +24,7 @@ options:
   -a, --add             enable adding packages from list links
   -s, --shell           enable running shell commands from list
 ```
-## run:
+## run (non permenant):
 run degoogle list
 ```shell
 wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/degoogle.txt && python3 Android-Debloater.py -i degoogle.txt -a -s && rm -rf Android-Debloater.py && rm -rf degoogle.txt
