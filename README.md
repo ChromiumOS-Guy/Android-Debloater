@@ -27,17 +27,17 @@ options:
 ## run:
 run degoogle list
 ```shell
-wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/degoogle.txt && python3 Android-Debloater.py -i degoogle.txt -p -a -s && rm -rf Android-Debloater.py && rm -rf degoogle.txt
+wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/degoogle.txt && python3 Android-Debloater.py -i degoogle.txt -a -s && rm -rf Android-Debloater.py && rm -rf degoogle.txt
 ```
 
 run foss collection (gapp replacment) list
 ```shell
-wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/foss_collection.txt && python3 Android-Debloater.py -i foss_collection.txt -p -a -s && rm -rf Android-Debloater.py && rm -rf foss_collection.txt
+wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/foss_collection.txt && python3 Android-Debloater.py -i foss_collection.txt -a -s && rm -rf Android-Debloater.py && rm -rf foss_collection.txt
 ```
 
 run Xiaomi Debloat list
 ```shell
-wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/Xiaomi_Debloat.txt && python3 Android-Debloater.py -i Xiaomi_Debloat.txt -p -a -s && rm -rf Android-Debloater.py && rm -rf Xiaomi_Debloat.txt
+wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/Android-Debloater.py && wget https://raw.githubusercontent.com/ChromiumOS-Guy/Android-Debloater/main/examples/Xiaomi_Debloat.txt && python3 Android-Debloater.py -i Xiaomi_Debloat.txt -a -s && rm -rf Android-Debloater.py && rm -rf Xiaomi_Debloat.txt
 ```
 
 ## list syntax:
