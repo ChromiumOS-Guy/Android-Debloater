@@ -1,0 +1,176 @@
+made by ChromiumOS-Guy
+Some Functionallity May break I am not accountable for ANY DAMAGE!!!
+question:98:Delete MIUI Apps (you will get propmeted on each one!)?
+
+question:1:Attempt Delete Mi File Explorer?
+package:com.mi.android.globalFileexplorer
+
+question:1:Attempt Delete Mi Launcher?
+package:com.mi.android.globallauncher
+
+question:1:Attempt Delete Mi Health (Needs MIUI services)?
+package:com.mi.health
+
+question:2:Attempt Delete Mi Wallet (Needs MIUI services)?
+package:com.mipay.wallet.id
+package:com.miui.nextpay
+
+question:1:Attempt Delete Wallpaper Carousel?
+package:com.miui.android.fashiongallery
+
+question:1:Attempt Delete MIUI Always-on Display?
+package:com.miui.aod
+
+question:1:Attempt Delete Mi Calculator?
+package:com.miui.calculator
+
+question:1:Attempt Delete System Cleaner?
+package:com.miui.cleanmaster
+
+question:1:Attempt Delete MIUI Compass?
+package:com.miui.compass
+
+question:1:Attempt Delete Camera Bokeh effect?
+package:com.miui.extraphoto
+
+question:1:Attempt Delete MIUI Biometric?
+package:com.miui.face
+
+question:2:Attempt Delete MIUI FM & services?
+package:com.miui.fm
+package:com.miui.fmservice
+
+question:1:Attempt Delete MIUI Gallery?
+package:com.miui.gallery
+
+question:1:Attempt Delete Mi Share (Needs MIUI services)?
+package:com.miui.mishare.connectivity
+
+question:1:Attempt Delete Music Player?
+package:com.miui.player
+
+question:1:Attempt Delete Music app & sound enhancer?
+package:com.miui.misound
+
+question:3:Attempt Delete Wallpaper app & services?
+package:com.miui.miwallpaper
+package:com.miui.miwallpaper.earth
+package:com.miui.miwallpaper.mars
+
+question:1:Attempt Delete Notes?
+package:com.miui.notes
+
+question:2:Attempt Delete QR scanner?
+package:com.miui.qr
+package:com.xiaomi.scanner
+
+question:1:Attempt Delete Screen Recorder?
+package:com.miui.screenrecorder
+
+question:1:Attempt Delete Text Message features?
+package:com.miui.smsextra
+
+question:1:Attempt Delete MIUI System Launcher?
+package:com.miui.system
+
+question:1:Attempt Delete Quick Ball feature?
+package:com.miui.touchassistant
+
+question:1:Attempt Delete User Guide app?
+package:com.miui.userguide
+
+question:1:Attempt Delete MIUI Video player?
+package:com.miui.videoplayer
+
+question:1:Attempt Delete Weather app?
+package:com.miui.weather2
+
+question:1:Attempt Delete Yellow Page app?
+package:com.miui.yellowpage
+
+question:1:Attempt Delete Mi Calendar?
+package:com.xiaomi.calendar
+
+question:1:Attempt Delete GetApps(Xiaomi app store)?
+package:package:com.xiaomi.mipicks
+
+question:1:Attempt Delete Mi Account (sensitive) (Needs Xiamoi Cloud services)?
+package:com.xiaomi.account
+
+question:1:Attempt Delete Mi Pay (Needs Xiamoi Cloud services)?
+package:com.xiaomi.payment
+
+
+question:5:Delete Xiamoi Data Mining & Ads services?
+package:com.miui.analytics
+package:com.miui.bugreport
+package:com.miui.hybrid
+package:com.miui.hybrid.accessory
+package:com.miui.msa.global
+
+
+question:9:Attempt Delete Xiamoi Cloud services & apps (Needs MIUI services)?
+package:com.miui.backup
+package:com.miui.cloudbackup
+package:com.miui.cloudservice
+package:com.miui.cloudservice.sysbase
+package:com.miui.micloudsync
+package:com.miui.newmidrive
+package:com.xiaomi.mi_connect_service
+package:com.xiaomi.micloud.sdk
+package:com.xiaomi.midrop
+
+
+question:17:Attempt Delete MIUI Services (May Break Functionality with some apps and services but otherwise safe to remove)?
+package:com.mfashiongallery.emag
+package:com.mi.android.globalpersonalassistant
+package:com.mi.globalTrendNews
+package:com.mi.webkit.core
+package:com.milink.service
+package:com.miui.accessibility
+package:com.miui.miservice
+package:com.miui.contentcatcher
+package:com.miui.enbbs
+package:com.miui.freeform
+package:com.miui.greenguard
+package:com.miui.huanji
+package:com.miui.vsimcore
+package:com.miui.wmsvc
+package:com.miui.zman
+package:com.xiaomi.xmsf
+package:com.xiaomi.xmsfkeeper
+
+
+question:28:Attempt Delete Bloatware Apps & Services?
+
+question:1:Attempt Delete Camera Tools
+package:com.xiaomi.cameratools
+
+package:com.xiaomi.channel
+package:com.xiaomi.joyose
+package:com.xiaomi.miplay_client
+package:com.xiaomi.mirror
+package:com.xiaomi.simactivate.service
+
+question:1:Attempt Delete Xiaomi System apps updater (if not removed Bloatware will pop backup much sooner)?
+package:com.xiaomi.discover
+
+question:1:Attempt Delete Games
+package:com.xiaomi.glgm
+
+question:1:Attempt Delete loaction traking app (decided how to track the phone)?
+package:com.xiaomi.location.fused
+
+question:1:Attempt Delete MIUI to MIUI Message
+package:com.xiaomi.mircs
+
+question:1:Attempt Delete Mi Security (sensitive)?
+package:com.xiaomi.mirecycle
+
+question:1:Attempt Delete Mi Settings (not android settings)?
+package:com.xiaomi.misettings
+
+
+question:2:reboot phone?
+rebooting!!
+shell:reboot
