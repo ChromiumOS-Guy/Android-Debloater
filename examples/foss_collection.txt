@@ -15,7 +15,7 @@ package:com.android.documentsui
 !package:com.android.dialer
 !package:com.android.calendar
 
-question:28:download and install FOSS app colection (13 apps)
+question:30:download and install FOSS app colection (13 apps)
 downloading QKMS messages
 download:https://f-droid.org/repo/com.moez.QKSMS_2220.apk
 downloading etar calendar
@@ -42,6 +42,8 @@ downloading clock app
 download:https://f-droid.org/repo/com.simplemobiletools.clock_42.apk
 downloading file manager
 download:https://f-droid.org/repo/me.zhanghai.android.files_34.apk
+downloading organic maps (open-source maps app)
+download:https://f-droid.org/repo/app.organicmaps_23111717.apk
 installing (FOSS) apps
 installpkgs
 
